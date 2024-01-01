@@ -1,5 +1,5 @@
 import { Command, Option } from "commander";
-import opt from "../lib/options.js";
+import opt from "../../lib/options.js";
 
 // class x {
 // 	constructor() {
@@ -72,15 +72,29 @@ class CLI {
 	setupOptions() {
 		this.program
 			.option("-f, --file <file>", "relative file path")
-			.option("-d, --dir <dir...>", "root directory path");
+			.option("-d, --dir <dir...>", "root directory path").action((opt)=>console.log(opt));
 	}
 
 	setupCommands() {
 		this.program
 			.command("split")
 			.option("-r, --range <range...>", "specify range")
+			.option("-d, --dir <dange...>", "specify range")
 			.action((cmd) => {
 				this.handleCommand("split", cmd);
+			});
+
+		this.program.command("pay")
+			.addOption(new Option("--cash").conflicts("creditCard"))
+			.addOption(new Option("--credit-card"))
+			.action((options) => {
+		  if (options.cash) {
+					console.log("Paying by cash");
+		  } else if (options.creditCard) {
+					console.log("Paying by credit card");
+		  } else {
+					console.log("Payment method unknown");
+		  }
 			});
 
 		this.program

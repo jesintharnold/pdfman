@@ -2,7 +2,7 @@
   "name": "pdf-edit",
   "version": "1.0.0",
   "description": "A CLI based based PDF manipulation tool",
-  "type": "module",
+  
   "main": "index.js",
   "bin": {
     "pdfman": "./bin/index.js"
@@ -23,7 +23,7 @@
     "paste",
     "watermark"
   ],
-  "author": "jesintharnold@gmail.com",
+  "author": "jesintharnold",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
@@ -35,5 +35,8 @@
     "commander": "^11.1.0",
     "ora": "^8.0.1",
     "pdf-lib": "^1.17.1"
+  },
+  "engines": {
+    "node": ">=18.19.0"
   }
 }
