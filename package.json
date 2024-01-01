@@ -2,7 +2,7 @@
   "name": "pdf-edit",
   "version": "1.0.0",
   "description": "A CLI based based PDF manipulation tool",
-  "type": "module",
+  
   "main": "index.js",
   "bin": {
     "pdfman": "./bin/index.js"
