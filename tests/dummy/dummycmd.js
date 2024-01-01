@@ -77,11 +77,25 @@ class CLI {
 
 	setupCommands() {
 		this.program
-			.command("split").enablePositionalOptions()
+			.command("split")
 			.option("-r, --range <range...>", "specify range")
+			.option("-d, --dir <dange...>", "specify range")
 			.action((cmd) => {
 				this.handleCommand("split", cmd);
 			});
+
+		this.program.command('pay')
+		.addOption(new Option('--cash').conflicts('creditCard'))
+		.addOption(new Option('--credit-card'))
+		.action((options) => {
+		  if (options.cash) {
+			console.log('Paying by cash')
+		  } else if (options.creditCard) {
+			console.log('Paying by credit card')
+		  } else {
+			console.log('Payment method unknown')
+		  }
+		});
 
 		this.program
 			.command("merge")
