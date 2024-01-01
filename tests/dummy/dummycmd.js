@@ -84,18 +84,18 @@ class CLI {
 				this.handleCommand("split", cmd);
 			});
 
-		this.program.command('pay')
-		.addOption(new Option('--cash').conflicts('creditCard'))
-		.addOption(new Option('--credit-card'))
-		.action((options) => {
+		this.program.command("pay")
+			.addOption(new Option("--cash").conflicts("creditCard"))
+			.addOption(new Option("--credit-card"))
+			.action((options) => {
 		  if (options.cash) {
-			console.log('Paying by cash')
+					console.log("Paying by cash");
 		  } else if (options.creditCard) {
-			console.log('Paying by credit card')
+					console.log("Paying by credit card");
 		  } else {
-			console.log('Payment method unknown')
+					console.log("Payment method unknown");
 		  }
-		});
+			});
 
 		this.program
 			.command("merge")
