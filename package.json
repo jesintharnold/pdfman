@@ -4,7 +4,9 @@
   "description": "A CLI based based PDF manipulation tool",
   "type": "module",
   "main": "index.js",
-  "bin": {"pdf":"./bin/index.js"},
+  "bin": {
+    "pdfman": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format:check": "prettier --check .",
