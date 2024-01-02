@@ -1,5 +1,5 @@
 {
-  "name": "pdf-edit",
+  "name": "pdfman",
   "version": "1.0.0",
   "description": "A CLI based based PDF manipulation tool",
   "type": "module",
