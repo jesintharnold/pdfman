@@ -1,5 +1,5 @@
 <div align="center">
-    <a href=""><img src=""/>PDFMAN</a>
+    <a href=""><img src="./static/oie_IwIM3RjbG3nu.png" style="height:170px"/></a>
     <br>
 </div>
 <p align="center">A command line PDF manipulation tool built using node.js</p><br>
@@ -22,16 +22,19 @@
 
 ### Table of Contents
 - [Features](#features)
-- [Installing](#installing)
+- [Install](#install)
 
 
 ## Features
-- [Split PDF](#split)
-- [Merge PDF](#merge)
-- [Delete PDF](#delete)
+
+| Index  |        Feature      |
+| :----: |        :------:     |
+| 1      |[Split PDF](#split)  |
+| 2      |[Merge PDF](#merge)  |
+| 3      |[Delete PDF](#delete)|
 
 
-## Installing
+## Install
 
 ### Package manager
 Using npm:
