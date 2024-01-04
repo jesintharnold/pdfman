@@ -1,5 +1,5 @@
 <div align="center">
-    <a href=""><img src="./static/oie_IwIM3RjbG3nu.png" style="height:170px"/></a>
+    <a href=""><img src="https://github.com/jesintharnold/pdfman/blob/master/static/oie_IwIM3RjbG3nu.png?raw=true" style="height:170px"/></a>
     <br>
 </div>
 <p align="center">A command line PDF manipulation tool built using node.js</p><br>
