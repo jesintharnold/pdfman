@@ -14,8 +14,8 @@
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/axios.svg?style=flat-square)](https://www.npmjs.org/package/pdfman)
-[![Build status](https://img.shields.io/github/actions/workflow/status/axios/axios/ci.yml?branch=v1.x&label=CI&logo=github&style=flat-square)](https://github.com/axios/pdfman/actions/workflows/ci.yml)
-[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=axios&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=pdfman)
+[![Build status](https://img.shields.io/github/actions/workflow/status/pdfman/pdfman/ci.yml?branch=v1.x&label=CI&logo=github&style=flat-square)](https://github.com/axios/pdfman/actions/workflows/ci.yml)
+[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=pdfman&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=pdfman)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/axios?style=flat-square)](https://bundlephobia.com/package/pdfman@latest)
 [![npm downloads](https://img.shields.io/npm/dm/axios.svg?style=flat-square)](https://npm-stat.com/charts.html?package=pdfman)
 </div>
