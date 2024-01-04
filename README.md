@@ -7,8 +7,8 @@
 
 <!--tags center logo-->
 <p align="center">
- <a href=""><b>Website</b></a> •
-<a href=""><b>Documentation</b></a>
+ <a href="https://github.com/jesintharnold/pdfman"><b>github</b></a> •
+<a href="https://github.com/jesintharnold/pdfman/blob/master/README.md"><b>Documentation</b></a>
 </p>
 
 <div align="center">
@@ -16,8 +16,6 @@
 [![npm version](https://img.shields.io/npm/v/pdfman.svg?style=flat-square)](https://www.npmjs.org/package/pdfman)
 [![pdfman](https://github.com/jesintharnold/pdfman/actions/workflows/ci.yml/badge.svg)](https://github.com/jesintharnold/pdfman/actions/workflows/ci.yml)
 [![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=pdfman&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=pdfman)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/pdfman?style=flat-square)](https://bundlephobia.com/package/pdfman@latest)
-[![npm downloads](https://img.shields.io/npm/dm/pdfman.svg?style=flat-square)](https://npm-stat.com/charts.html?package=pdfman)
 </div>
 
 ### Table of Contents
