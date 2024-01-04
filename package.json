@@ -1,6 +1,6 @@
 {
   "name": "pdfman",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A CLI based PDF manipulation tool",
   "type": "module",
   "main": "index.js",
